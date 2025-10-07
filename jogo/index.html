@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Jogo</title>
+
+  <!-- p5.js -->
+  <script src="p5.js"></script>
+  <script src="p5.dom.min.js"></script>
+  <script src="p5.sound.min.js"></script>
+
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <style>
+    /* Corpo sem margens e preenchendo a tela */
+    html, body {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      height: 100%;
+      width: 100%;
+    }
+
+    body {
+      background: linear-gradient(135deg, #1e3c72, #2a5298); /* fundo bonito */
+    }
+
+    canvas {
+      display: block; /* remove scrollbars do canvas */
+    }
+  </style>
+</head>
+<body>
+  <!-- Seu sketch.js será carregado abaixo -->
+  <script src="sketch.js"></script>
+</body>
+</html>
