@@ -1,6 +1,6 @@
 let Q1x=[], Q2x=[], Q3x=[], Q4x=[];
 let tela = 1;
-let velocidade = 15;
+let velocidade = 5;
 let xp = 5, yp = 5;
 let pont = 0, texto = "";
 let xo, yo;
